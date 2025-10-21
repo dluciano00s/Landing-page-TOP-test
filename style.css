@@ -1,0 +1,26 @@
+* {
+    padding: 0 0;
+    margin: 0;
+
+}
+
+.header {
+
+}
+
+
+.header-top {
+    display: flex;
+
+}
+
+.hd-logo {
+    display: flex;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
