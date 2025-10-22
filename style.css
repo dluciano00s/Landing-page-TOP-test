@@ -1,26 +1,67 @@
 * {
     padding: 0 0;
     margin: 0;
-
+    
 }
 
 .header {
-
+    display: flex;
+color: white;
+background-color: #1f2937;
+align-content: center;
 }
 
 
 .header-top {
     display: flex;
-
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    
 }
 
 .hd-logo {
+    font-size: 24px;
     display: flex;
-
+    color: #f9faf8;
+    
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.titulosub {
+font-size: 18px;
+color: #f9faf8;
+
+}
+
+.headerbody {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    gap: 100px;
+}
+
+img {
+    max-height: 200px;
+    margin-left:auto;
+}
+
+
 
