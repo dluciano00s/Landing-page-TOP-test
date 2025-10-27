@@ -1,6 +1,8 @@
 * {
+    
     padding: 0 0;
     margin: 0;
+    
     
 }
 
@@ -8,7 +10,7 @@
     display: flex;
 color: white;
 background-color: #1f2937;
-align-content: center;
+justify-content: center;
 }
 
 
@@ -25,12 +27,15 @@ align-content: center;
     display: flex;
     color: #f9faf8;
     
+    
 }
 
 ul {
     display: flex;
     list-style: none;
     gap: 20px;
+   
+   
 }
 
 a {
@@ -63,5 +68,51 @@ img {
     margin-left:auto;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px white;
+    border-radius: 10px;
+}
 
+.blue-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
 
+.boxblue {
+    border: 2px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.blueboxmsg {
+
+}
+
+.psecond {
+ color: black;
+ text-align: center;
+ font-size: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
